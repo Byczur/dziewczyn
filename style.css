@@ -1,0 +1,41 @@
+* {
+    cursor: cell;
+}
+
+body {
+    background-image: url('tlo.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    text-align: center;
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #9933ff;
+    cursor: wait;
+  }
+  
+h1 {
+    cursor: crosshair;
+}
+
+p {
+    cursor: help;
+}
+
+a {
+    color: #cc99ff; 
+}
+
+a:hover {
+    background-color: pink;
+    font-size: 52px;
+  }
+
+img {
+    height: 200px;
+    width: auto;
+    border-radius: 20px;
+    cursor: grab;
+}
